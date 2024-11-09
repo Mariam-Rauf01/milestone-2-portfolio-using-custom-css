@@ -1,0 +1,24 @@
+/* Footer.css */
+
+.footer {
+    background-color: #694953;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer-heading {
+    font-family: 'Lusitana', serif; /* Ensure to import this font if not done already */
+    color: #f5e6ba;
+    font-size: 1.125rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer {
+      padding: 1.5rem 0;
+    }
+  
+    .footer-heading {
+      font-size: 1.5rem;
+    }
+  }
+  

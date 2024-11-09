@@ -1,0 +1,190 @@
+.about-section {
+  background-color: #462937;
+  padding: 3rem 0;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f3e7c3;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.05em;
+  font-family: 'Lusitana', serif;
+}
+
+.about-title-highlight {
+  font-weight: bold;
+  font-size: 4.5rem;
+  color: #f38190;
+  font-family: 'Lusitana', serif;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1.5rem;
+  font-family: 'Lusitana', serif;
+}
+
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row;
+    gap: 4rem;
+    padding: 0 3rem;
+  }
+}
+
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20rem;
+}
+
+.about-image {
+  border-radius: 50%;
+  border: 4px solid #f3e7c3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .about-image {
+    border-radius: 8px;
+  }
+}
+
+.about-text {
+  max-width: 640px;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .about-text {
+    text-align: left;
+    padding: 0;
+  }
+}
+
+.quote-icon {
+  color: #e9e6e5;
+  display: inline-block;
+}
+
+.about-description {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #f8f2de;
+  line-height: 1.6;
+  font-family: 'Lusitana', serif;
+}
+
+.education-section {
+  padding: 0 1.5rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .education-section {
+    padding: 0 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .education-section {
+    padding: 0 12rem;
+  }
+}
+
+.education-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f3e7c3;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+  margin-left: 11rem;
+  font-family: 'Lusitana', serif;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+  color: #e9e6e0;
+  margin-left: 11rem;
+}
+
+.education-item {
+  margin-bottom: 2rem;
+}
+
+.education-item-title {
+  font-size: 1.40rem;
+  font-weight: bold;
+  color: white;
+  line-height: 50px;
+}
+
+.education-item-description {
+  font-size: 1rem;
+  color: #f3e7c3;
+}
+
+/* Make sure the layout adjusts correctly on smaller screens */
+@media (max-width: 767px) {
+  .about-image-container {
+    margin-left: 0; /* Center image on smaller screens */
+    margin-top: 1rem; /* Add some space at the top */
+  }
+
+  .about-title {
+    font-size: 2rem; /* Reduce font size for better readability on smaller screens */
+  }
+
+  .about-title-highlight {
+    font-size: 3rem; /* Reduce highlight size */
+  }
+
+  .about-content {
+    padding: 0 1rem;
+    gap: 1.5rem;
+  }
+
+  .education-title {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .education-list {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .education-item {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.75rem; /* Further reduce title size for very small screens */
+  }
+
+  .about-title-highlight {
+    font-size: 2.5rem; /* Further reduce highlight size */
+  }
+
+  .about-description {
+    font-size: 1rem; /* Adjust description font size for small screens */
+  }
+
+  .education-item-title {
+    font-size: 1.125rem; /* Adjust item title font size */
+  }
+
+  .education-item-description {
+    font-size: 0.875rem; /* Adjust item description font size */
+  }
+}
